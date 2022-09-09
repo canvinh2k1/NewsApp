@@ -13,6 +13,6 @@ interface ArticleDao {
     @Delete
     suspend fun delete(article: Article)
 
-    @Query("SELECT * FROM articles")
+    @Query("SELECT * FROM articles_new")
     fun getAllArticles(): LiveData<List<Article>>
 }

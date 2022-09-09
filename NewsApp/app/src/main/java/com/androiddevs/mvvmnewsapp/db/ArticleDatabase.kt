@@ -26,7 +26,7 @@ abstract class ArticleDatabase : RoomDatabase(){
             Room.databaseBuilder(
                 context.applicationContext,
                 ArticleDatabase::class.java,
-                "article_db.db"
+                "article_db_new.db"
             ).build()
     }
 }
